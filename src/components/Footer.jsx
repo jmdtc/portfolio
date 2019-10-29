@@ -53,8 +53,8 @@ const Footer = () => (
         <Link to="/">
             <Logo />
         </Link>
-        <FooterAuthor href="https://marguerite.io">
-            © 2019 — Designed & developed by Marguerite Roth
+        <FooterAuthor href="https://kind-beaver-20afa2.netlify.com">
+            © 2019 — Designed & developed by Mathieu Delisle
             <FooterSpooch className="FooterSpooch" src={spooch} />
         </FooterAuthor>
     </FooterContainer>
