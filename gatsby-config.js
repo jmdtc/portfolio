@@ -27,7 +27,6 @@ module.exports = {
         resolve: 'gatsby-source-prismic-graphql',
         options: {
             repositoryName: 'portfolioo', // (REQUIRED, replace with your own)
-            accessToken: 'MC5YYmdpR0JZQUFDWUEtWXFE.Re-_vUoMAkIBR--_vSIcP--_ve-_vTrvv73vv70XL--_vRfvv70pMXtTUF_vv73vv70177-9',
             linkResolver: () => post => `/${post.uid}`,
         }
     },
