@@ -158,7 +158,7 @@ const ProjectCardImageContainer = styled("div")`
 `
 
 const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
-    <ProjectCardContainer href="google.com">
+    <ProjectCardContainer href="https://www.google.com">
         <ProjectCardContent className="ProjectCardContent">
             <ProjectCardCategory>
                 {category[0].text}
