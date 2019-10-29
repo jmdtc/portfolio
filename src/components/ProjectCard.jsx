@@ -172,7 +172,7 @@ const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
                 {RichText.render(description)}
             </ProjectCardBlurb>
             <ProjectCardAction className="ProjectCardAction">
-                To live <span>&#8594;</span>
+                To project <span>&#8594;</span>
             </ProjectCardAction>
         </ProjectCardContent>
         <ProjectCardImageContainer className="ProjectCardImageContainer">
