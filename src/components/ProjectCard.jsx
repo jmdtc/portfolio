@@ -158,6 +158,7 @@ const ProjectCardImageContainer = styled("div")`
 `
 
 const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
+    console.log(description)
     <ProjectCardContainer href="https://www.google.com">
         <ProjectCardContent className="ProjectCardContent">
             <ProjectCardCategory>
