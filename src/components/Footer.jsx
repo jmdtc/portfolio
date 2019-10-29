@@ -54,7 +54,7 @@ const Footer = () => (
             <Logo />
         </Link>
         <FooterAuthor href="https://kind-beaver-20afa2.netlify.com">
-            © 2019 — Designed & developed by Mathieu Delisle
+            © 2019 — Designed by Mathieu Delisle
             <FooterSpooch className="FooterSpooch" src={spooch} />
         </FooterAuthor>
     </FooterContainer>
