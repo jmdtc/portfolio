@@ -6,7 +6,7 @@ import dimensions from "styles/dimensions";
 import colors from "styles/colors";
 import PropTypes from "prop-types";
 
-const ProjectCardContainer = styled(Link)`
+const ProjectCardContainer = styled("div")`
     display: grid;
     grid-template-columns: 4fr 7fr;
     box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.06);
@@ -158,7 +158,7 @@ const ProjectCardImageContainer = styled("div")`
 `
 
 const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
-    <ProjectCardContainer href={`google.com`}>
+    <a href={`google.com`}><ProjectCardContainer>
         <ProjectCardContent className="ProjectCardContent">
             <ProjectCardCategory>
                 {category[0].text}
@@ -176,7 +176,7 @@ const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
         <ProjectCardImageContainer className="ProjectCardImageContainer">
             <img src={thumbnail.url} alt={title[0].text}/>
         </ProjectCardImageContainer>
-    </ProjectCardContainer>
+    </ProjectCardContainer><a/>
 )
 
 export default ProjectCard;
