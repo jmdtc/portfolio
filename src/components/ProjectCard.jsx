@@ -158,7 +158,9 @@ const ProjectCardImageContainer = styled("div")`
 `
 
 const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
-    <ProjectCardContainer href={uid.substr(0,5) + "://" + uid.substr(5, uid.length)}>
+    <ProjectCardContainer
+        href={uid.substr(0,5) + "://" + uid.substr(5, uid.length)}
+        target="_blank" rel="noopener noreferrer">
         <ProjectCardContent className="ProjectCardContent">
             <ProjectCardCategory>
                 {category[0].text}
