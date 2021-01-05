@@ -50,9 +50,6 @@ const FooterSpooch = styled("img")`
 
 const Footer = () => (
     <FooterContainer>
-        <Link to="/">
-            <Logo />
-        </Link>
         <FooterAuthor href="https://kind-beaver-20afa2.netlify.com">
             © 2019 — Designed by Moi
             <FooterSpooch className="FooterSpooch" src={spooch} />
