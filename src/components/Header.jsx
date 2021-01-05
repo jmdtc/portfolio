@@ -22,15 +22,12 @@ const HeaderLinks = styled("div")`
     justify-content: flex-end;
     width: 100%;
     max-width: 200px;
-
     @media(max-width: ${dimensions.maxwidthTablet}px) {
         grid-gap: 5.5em;
     }
-
     @media(max-width: ${dimensions.maxwidthMobile}px) {
         grid-gap: 2.5em;
     }
-
     a {
         color: currentColor;
         text-decoration: none;
@@ -42,7 +39,6 @@ const HeaderLinks = styled("div")`
         padding-top: 0.25em;
         display: block;
         position: relative;
-
         &:after {
             position: absolute;
             content: "";
@@ -55,14 +51,12 @@ const HeaderLinks = styled("div")`
             margin-right: -9px;
             transition: 100ms ease-in-out background;
         }
-
         &:hover {
             &:after {
                 background: ${colors.blue500};
                 transition: 100ms ease-in-out background;
             }
         }
-
         &.Link--is-active {
             &:after {
                 background: ${colors.blue500};
@@ -75,6 +69,9 @@ const HeaderLinks = styled("div")`
 const Header = () => (
     <HeaderContainer>
         <HeaderContent>
+            <Link to="/">
+                <Logo/>
+            </Link>
             <HeaderLinks>
                 <Link
                     activeClassName="Link--is-active"
