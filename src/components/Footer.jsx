@@ -51,7 +51,7 @@ const FooterSpooch = styled("img")`
 const Footer = () => (
     <FooterContainer>
         <FooterAuthor href="https://kind-beaver-20afa2.netlify.com">
-            © 2019 — Designed by Moi
+            © 2020 — Mathieu Delisle
             <FooterSpooch className="FooterSpooch" src={spooch} />
         </FooterAuthor>
     </FooterContainer>
