@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Prist | Gatsby & Prismic Starter`,
-        description: `A starter powered by Gatsby and Prismic to showcase portfolios and blogs.`,
+    title: `Mathieu Delisle | Projects`,
+        description: `Presenting some of my coding projects.`,
     author: `Marguerite Roth | marguerite.io`,
   },
   plugins: [
